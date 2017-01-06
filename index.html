@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>Timestamp Microservice</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+        <h1> PP's URL shortner Microservice </h1>
+        <h1><small> Free Code camp project </small></h1>
+        <a href="https://github.com/PP-MakeItCount/timestamp">Github: PP-MakeItCount</a>
+        </div>
+      
+        <h2>User Stories:</h2>
+        <p>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</p>
+        <p>When I visit that shortened URL, it will redirect me to my original link.</p>
+        <p>If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</p>
+        <h2>Example Creation usage:</h2>
+        <div >
+            <code>https://camper-api-projs-ppmakeitcount.c9users.io/new/https://www.freecodecamp.com</i></code><br>
+        </div>
+        <h2>Example output:</h2>
+        <div >
+           <code>{"original":"https://www.freecodecamp.com","shortened":"https://camper-api-projs-ppmakeitcount.c9users.io/438535"}</code>
+        </div>
+        <h2>Usage:</h2>
+        <div >
+            <code>https://camper-api-projs-ppmakeitcount.c9users.io/438535</code>
+        </div>
+        <h2>Will redirect to:</h2>
+        <div >
+            <code>https://www.freecodecamp.com</code>
+        </div>
+    </div>    
+</body>
